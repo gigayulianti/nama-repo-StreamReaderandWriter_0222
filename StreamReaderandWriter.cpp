@@ -23,4 +23,10 @@ int main()
         cout << "- ";
         //mendapat setiap karakter dalam stu baris
         getline(cin, baris);
+        //kondisi false jika baris hanya berisi karakter q
+        if (baris == "q") break;
+        //mennulis  dan memasukkan nilai dari variabel baris ke dalam file
+        outfile << baris << endl;
         
+    }
+    
